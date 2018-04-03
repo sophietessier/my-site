@@ -1094,13 +1094,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     margin-top: 30px;
    }
 
-   .landing-page .section-presentation img{
+   .landing-page .section-presentation img {
     position: absolute;
     top: 0;
     left: 0;
     height: 500px;
    }
-
+   .landing-page .section-presentation .img-responsive img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+   }
+  .landing-page .section-presentation-portfolio img{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+   }
    .landing-page .section-presentation .iphone-presentation {
     position: relative;
     margin: 0 auto;
